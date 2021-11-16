@@ -1,12 +1,12 @@
 package com.olayg.halfwayapp.adapter
 
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.olayg.halfwayapp.databinding.ItemCharacterBinding
 import com.olayg.halfwayapp.model.custom.Character
 import com.olayg.halfwayapp.util.layoutInflater
 import com.olayg.halfwayapp.util.loadUrl
+import kotlin.reflect.KFunction1
 
 class CharacterAdapter(
     private val characters: List<Character>,
